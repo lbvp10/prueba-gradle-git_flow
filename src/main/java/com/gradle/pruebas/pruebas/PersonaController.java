@@ -15,6 +15,6 @@ public class PersonaController {
 
     @GetMapping()
     public List<String> getPersonas() {
-        return Arrays.asList("Luis", "Juan", "Pedro");
+        return Arrays.asList("Luis", "Juan", "Pedro","juana");
     }
 }
